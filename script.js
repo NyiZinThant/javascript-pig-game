@@ -76,7 +76,7 @@ domBtnHold.addEventListener('click', function () {
     scores[currentPlayer] += current;
     getPlayer(currentPlayer, 'score').textContent = scores[currentPlayer];
     // win
-    if (scores[currentPlayer] >= 20) {
+    if (scores[currentPlayer] >= 100) {
       endGame();
     } else {
       switchPlayer();
